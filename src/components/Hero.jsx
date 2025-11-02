@@ -12,17 +12,25 @@ const Hero = () => {
     });
 
     return (
-    <section id="hero" className="container mx-auto px-8 min-h-[calc(100vh-80px)] flex flex-col-reverse md:flex-row items-center pt-10 pb-16 md:pb-24">
-        <div className="w-full mt-(-10) md:mr-30 md:w-1/2 mt-12 md:mt-0 flex justify-center md:justify-start">
+    <section 
+      id="hero" 
+      className="container mx-auto px-8 flex flex-col-reverse lg:flex-row lg:items-center pb-16 lg:pb-24 pt-7">
+        <div className="w-full lg:w-1/2 mt-12 lg:mt-0 lg:pr-2 flex justify-center lg:justify-start">
+        <div 
+          className="w-80 h-80 md:w-[28rem] md:h-[28rem] rounded-full overflow-hidden 
+                     ring-3 ring-light-text 
+                     shadow-[0_0_20px_rgba(42,52,57,0.8)] 
+                     transition-all duration-300 hover:scale-105"
+        >
+          <img
+            src={profileImg}
+            alt="Charan Sai Deekonda"
+            className="w-full h-full object-cover"
+          />
+        </div>
+      </div>
 
-                <img
-                    src={profileImg}
-                    alt="Charan Sai Deekonda"
-                    className="w-80 h-80 md:w-[28rem] md:h-[28rem] rounded-full object-cover"
-                />
-            </div>
-
-            <div className="w-full md:w-1/2 text-dark-bg text-center md:text-left mt-8 md:mt-0 md:mr-10 Text Column:">
+            <div className="w-full lg:w-1/2 text-dark-bg text-center lg:text-left mt-8 lg:mt-0 lg:pl-2">
                 <h1 className="text-4xl md:text-6xl font-bold mb-4 ">
                     <h2 className="text-2xl md:text-3xl">Hi, I am</h2>
                     <div className="text-zinc-900 ">
