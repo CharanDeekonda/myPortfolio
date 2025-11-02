@@ -45,7 +45,7 @@ const Hero = () => {
 
                 <div className="flex justify-center md:justify-start">
                     <a
-                        href="myresume.pdf"
+                        href="/CharanSaiDeekondaResume.pdf"
                         download="Charan_Sai_Deekonda_Resume.pdf"
                         className="bg-dark-bg text-light-text px-8 py-4 rounded-md text-xl font-medium
                         hover:bg-opacity-90 transition-all duration-200 shadow-lg"
